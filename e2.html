@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+<link href="style/css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="font-family:Arial, Helvetica, sans-serif">
+<div class="header">
+	<h1 class="logo"><a href=""><img src="images/a_03.png"/></a></h1>
+	<div class="yyqh"><select name="" class="wby10" >
+	 <option>EN</option>
+	  <option>简体</option>
+	  <option>繁体</option>
+	</select></div>
+	<div class="nav">
+		<ul>
+			<ul>
+			<li><a href="e_index.html">Home</a></li>
+			<li><a href="e1.html">Project</a></li>
+			<li><a href="e3.html">Application</a></li>
+			<li class="hover"><a href="e2.html">DAPI incubation</a></li>
+			<li><a href="e4.html">Team</a></li>
+		</ul>
+		</ul>
+	</div>
+</div>
+<div class="banner3">
+	<div class="banner3box">
+		<h2 style="font-family:Arial, Helvetica, sans-serif">DAPI DIGITAL ASSET INCUBATOR</h2>
+		<p  style="letter-spacing:2px; line-height:28px; font-family:Arial, Helvetica, sans-serif">DEC has excellent ductility and can be extended into various fields such as ICO incubation process integration.<br/>The DAPI platform can greatly improve the efficiency of the whole ecosystem through the systematic management of key decisions of the entire digital assets - - creation, crowd-funding, decision - making, currency, exchange and token allocation.</p>
+	</div>
+</div>
+<div class="inbox">
+	<div class="fhqtp"><img src="images/e3.png" /></div>
+	<div class="fhtext">
+		<p><b>DAO</b> / distributed autonomous organization road.</p>
+		<p><b>FUND</b> / FUND, in the DAPI, there is a digital FUND and contribution point FUND two funds.</p>
+		<p><b>Contribution point</b> / eachpoject is established, the project fund has 100 million contribution points, which are used to reward project contributors.</p>
+		<p><b>Vote weight</b> / number of banknotes *　In(1+days) + credit value weighting Note: add a natural logarithm to the number of days.</p>
+		<p><b>The launch of the proposal</b> / proposal, which costs 1DEC(paid to the DAPI foundation), is returned to 0.9DEC, while the rejection returns 0.5.</p>
+		<p><b>Conditions of adoption of the proposal</b> / The total weight of the agreed investment /The total weight > 1.6.</p>
+		<p><b>Dismissal of the proposal</b> / The total weight of objections / The total weight > = 0.4. if the total weight is agreed to >0.5 but < = 0.6 then the proposed status change is: non-absolute majority passes.</p>
+		<p>The default proposal is valid for 3 days, reaching 50 extension 3 days to 55 % for 3days. The maximum time is still not to the absolute majority, the proposal is canceled, return 0.6DEC.</p>
+	</div>
+</div>
+<div id="footer">
+	<div class="footerbox">
+		<a href=""><img src="images/a_21.png"/></a>
+		<p>Copyright @2018 dechain.io | All rights reserved</p>
+	</div>
+</div>
+<script>
+	$(document).ready(function () {
+	  $(".wby10").bind("change",function(){
+		if($(this).val()=='简体'){
+		  self.location.href="2.html"
+		}
+		else if($(this).val()=='繁体'){
+		  self.location.href="f2.html"
+		}else {
+		  self.location.href="e2.html"
+		}
+	  });
+	});
+</script>
+</body>
+</html>

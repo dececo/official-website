@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+<link href="style/css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="font-family:Arial, Helvetica, sans-serif">
+<div class="header">
+	<h1 class="logo"><a href=""><img src="images/a_03.png"/></a></h1>
+	<div class="yyqh"><select name="" class="wby10" >
+	  <option>EN</option>
+	  <option>简体</option>
+	  <option>繁体</option>
+	</select></div>
+	<div class="nav">
+		<ul>
+			<li><a href="e_index.html">Home</a></li>
+			<li><a href="e1.html">Project</a></li>
+			<li class="hover"><a href="e3.html">Application</a></li>
+			<li><a href="e2.html">DAPI incubation</a></li>
+			<li><a href="e4.html">Team</a></li>
+		</ul>
+	</div>
+</div>
+<div class="e_banner4"></div>
+
+<div class="inbox">
+	<div class="jpct">
+		
+		<div class="jpct_right">
+			<p>In the traditional online task publishing system, there are few tasks of software develop-<br/>ment, such as high complexity, difficulty in coordin and difficulty in evaluation.<br/>Software development work usually by special software installed inside an enterprise, co-<br/>ordinated management and did not value the function of transmission, at the same time<br/>alss can't get don't know many together accomplish the same task.</p>
+		</div>
+	</div>
+</div>
+<div class="e_gsbox"></div>
+<div class="frwtp"><img src="images/e4.png" /></div>
+<div id="footer">
+	<div class="footerbox">
+		<a href=""><img src="images/a_21.png"/></a>
+		<p>Copyright @2018 dechain.io | All rights reserved</p>
+	</div>
+</div>
+<script>
+	$(document).ready(function () {
+	  $(".wby10").bind("change",function(){
+		if($(this).val()=='简体'){
+		  self.location.href="3.html"
+		}
+		else if($(this).val()=='繁体'){
+		  self.location.href="f3.html"
+		}else {
+		  self.location.href="e3.html"
+		}
+	  });
+	});
+</script>
+</body>
+</html>

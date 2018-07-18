@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+<link href="style/css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="header">
+	<h1 class="logo"><a href=""><img src="images/a_03.png"/></a></h1>
+	<div class="yyqh">
+     <select name="" class="wby10" >
+    	<option>繁体</option>
+    	<option>简体</option>
+        <option>EN</option>
+	  </select>
+    </div>
+	<div class="nav">
+		<ul>
+			<li><a href="f_index.html">首頁</a></li>
+			<li><a href="f1.html">解決方案</a></li>
+			<li class="hover"><a href="f3.html">應用場景</a></li>
+			<li><a href="f2.html">DAPI孵化</a></li>
+			<li><a href="f4.html">DEC團隊</a></li>
+		</ul>
+	</div>
+</div>
+<div class="f_banner4"></div>
+
+<div class="inbox">
+	<div class="jpct">
+		
+		<div class="jpct_right">
+			<p>傳統的在線任務發布系統中，較少有軟件開發類的任務，這類任務復雜度高、協同困難、評估困難， 軟件研發工作一般通過安裝在企業內部的專用軟件來進行協調管理，而這類軟件並沒有價值傳輸的功能，同時也不可能讓不認識的多方協同完成同一個任務。</p>
+		</div>
+	</div>
+</div>
+<div class="f_gsbox"></div>
+<div class="frwtp"><img src="images/f6.png" /></div>
+<div id="footer">
+	<div class="footerbox">
+		<a href=""><img src="images/a_21.png"/></a>
+		<p>Copyright @2018 dechain.io | All rights reserved</p>
+	</div>
+</div>
+<script>
+	$(document).ready(function () {
+	  $(".wby10").bind("change",function(){
+		if($(this).val()=='简体'){
+		  self.location.href="3.html"
+		}
+		else if($(this).val()=='繁体'){
+		  self.location.href="f3.html"
+		}else {
+		  self.location.href="e3.html"
+		}
+	  });
+	});
+</script>
+</body>
+</html>

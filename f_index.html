@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+<link href="style/css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="header">
+	<h1 class="logo"><a href=""><img src="images/a_03.png"/></a></h1>
+	<div class="yyqh"><select name="" class="wby10">
+      <option>繁体</option>
+	  <option>简体</option>
+	  <option>EN</option>
+	</select></div>
+	<div class="nav">
+		<ul>
+			<li class="hover"><a href="f_index.html">首頁</a></li>
+			<li><a href="f1.html">解決方案</a></li>
+			<li><a href="f3.html">應用場景</a></li>
+			<li><a href="f2.html">DAPI孵化</a></li>
+			<li><a href="f4.html">DEC團隊</a></li>
+		</ul>
+	</div>
+</div>
+<div class="f_banner1">
+	<div class="jianbtn"><a href="file/DEC-whitepaper-1.1.pdf"><img src="images/fanbtn.png" alt=""/></a></div>
+</div>
+<div class="intext">
+	<p>DEC系統是一個基於區塊鏈技術的分布式生態協同系統。它通過分片共識的策略實現了具備高吞吐量，低延時以及無分叉特點的區塊鏈基礎設施。以自治代理、智慧程式、人工智慧和算灋，提供可自我維持的高效運作，DEC將帶來生產關系的全新變革。</p>
+</div>
+<div class="wzgg">
+	<p>當人和人通過高度自治的方式無間協作在一起，新的世界誕生了。</p>
+</div>
+<div class="nrjs">
+	<div class="nrjs_left">
+		<p>在DEC，區塊鏈開發高手通過智慧合約來共亯時間和經驗，開發更多區塊鏈項目或其他任務。</p><br />
+		<p>DEC極佳的延展性，可以延展到各種任務、項目、服務等，最終成為任務協同的生產力工具。</p>
+	</div>
+	<div class="nrjs_right"><img src="images/a_11.png"/></div>
+</div>
+<div class="gsqz"><p>各司其職&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;直達訴求</p></div>
+<div class="centp"><img src="images/f1.png"/></div>
+<div id="footer">
+	<div class="footerbox">
+		<a href=""><img src="images/a_21.png"/></a>
+		<p>Copyright @2018 dechain.io | All rights reserved</p>
+	</div>
+</div>
+<script>
+	$(document).ready(function () {
+	  $(".wby10").bind("change",function(){
+		if($(this).val()=='简体'){
+		  self.location.href="index.html"
+		}
+		else if($(this).val()=='繁体'){
+		  self.location.href="f_index.html"
+		}else {
+		  self.location.href="e_index.html"
+		}
+	  });
+	});
+</script>
+</body>
+</html>

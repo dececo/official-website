@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+<link href="style/css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="font-family:Arial, Helvetica, sans-serif;">
+<div class="header">
+	<h1 class="logo"><a href=""><img src="images/a_03.png"/></a></h1>
+	<div class="yyqh"><select name="" class="wby10" >
+		<option>EN</option>
+		  <option>简体</option>
+		  <option>繁体</option>
+		</select></div>
+	
+	<div class="nav">
+		<ul>
+			<li class="hover"><a href="e_index.html">Home</a></li>
+			<li><a href="e1.html">Project</a></li>
+			<li><a href="e3.html">Application</a></li>
+			<li><a href="e2.html">DAPI incubation</a></li>
+			<li><a href="e4.html">Team</a></li>
+		</ul>
+	</div>
+</div>
+<div class="e_banner1">
+	<div class="yingbtn"><a href="file/DEC-whitepaper-1.1.pdf"><img src="images/yingbtn.png" alt=""/></a></div>
+</div>
+<div class="intext">
+	<p style="letter-spacing:0; line-height:28px">DEC system is a distributed eco collaborative system based on block chain technology.<br/>It achieves high throughput through a piecewise consensus strategy.<br/>Low delay and no branching characteristics of block chaining infrastructure.<br/>With autonomous agents, intelligent programs, artificial intelligence and computation.<br/>To provide self-sustaining and effrcient operation, DEC will bring about a new revolution in<br/>production relatione.</p>
+</div>
+<div class="wzgg">
+	<p style=" line-height:38px; padding-top:40px;letter-spacing:0;">The new world was borr when man and man worked together<br/>through a highly autonomous channel.</p>
+</div>
+<div class="nrjs">
+	<div class="nrjs_left">
+		<p style=" line-height:30px;letter-spacing:0;">In DEC，block chain development master through wisdom contract to share time and experience, to develop more block chain projects or other tasks.</p>
+		<p style=" line-height:30px; padding-top:20px;letter-spacing:0;">DEC's excellent ductility,can be extended to a variety of tasks,projects, services, etc. and ultimately becomes a productivity tool for task collaboration.</p>
+	</div>
+	<div class="nrjs_right"><img src="images/a_11.png"/></div>
+</div>
+<div class="gsqz"><p>DO DIRECT APPEAL</p></div>
+<div class="centp"><img src="images/e1.png" /></div>
+<div id="footer">
+	<div class="footerbox">
+		<a href=""><img src="images/a_21.png"/></a>
+		<p>Copyright @2018 dechain.io | All rights reserved</p>
+	</div>
+</div>
+<script>
+	$(document).ready(function () {
+	  $(".wby10").bind("change",function(){
+		if($(this).val()=='简体'){
+		  self.location.href="index.html"
+		}
+		else if($(this).val()=='繁体'){
+		  self.location.href="f_index.html"
+		}else {
+		  self.location.href="e_index.html"
+		}
+	  });
+	});
+</script>
+</body>
+</html>

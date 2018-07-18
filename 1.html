@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+<link href="style/css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="header">
+	<h1 class="logo"><a href=""><img src="images/a_03.png"/></a></h1>
+	<div class="yyqh"><select name="" class="wby10" >
+	  <option>简体</option>
+	  <option>繁体</option>
+      <option>EN</option>
+	</select></div>
+	<div class="nav">
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li class="hover"><a href="1.html">解决方案</a></li>
+			<li><a href="3.html">应用场景</a></li>
+			<li><a href="2.html">DAPI孵化</a></li>
+			<li><a href="4.html">DEC团队</a></li>
+		</ul>
+	</div>
+</div>
+<div class="banner2"></div>
+<div class="inbox">
+	<img src="images/b_03.png"/>
+	<img src="images/b_05.png"/>
+	<img src="images/b_06.png"/>
+	<img src="images/b_07.png"/>
+	<img src="images/b_08.png"/>
+</div>
+<div id="footer">
+	<div class="footerbox">
+		<a href=""><img src="images/a_21.png"/></a>
+		<p>Copyright @2018 dechain.io | All rights reserved</p>
+	</div>
+</div>
+<script>
+	$(document).ready(function () {
+	  $(".wby10").bind("change",function(){
+		if($(this).val()=='简体'){
+		  self.location.href="1.html"
+		}
+		else if($(this).val()=='繁体'){
+		  self.location.href="f1.html"
+		}else {
+		  self.location.href="e1.html"
+		}
+	  });
+	});
+</script>
+
+</body>
+</html>

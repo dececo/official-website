@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="js/jquery1.42.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.js"></script>
+<link href="style/css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="header">
+	<h1 class="logo"><a href=""><img src="images/a_03.png"/></a></h1>
+	<div class="yyqh"><select name="" class="wby10" >
+	  <option>简体</option>
+	  <option>繁体</option>
+      <option>EN</option>
+	</select></div>
+	<div class="nav">
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="1.html">解决方案</a></li>
+			<li><a href="3.html">应用场景</a></li>
+			<li class="hover"><a href="2.html">DAPI孵化</a></li>
+			<li><a href="4.html">DEC团队</a></li>
+		</ul>
+	</div>
+</div>
+<div class="banner3">
+	<div class="banner3box">
+		<h2>DAPI数字资产孵化器</h2>
+		<p>DEC具有极佳的延展性，可延伸至ICO孵化流程一体化等各个领域。DAPI平台通过系统化的管理整个数字资产的关键决策--创建、众筹、决策、发币、上交易所、代币分配，可以大大提升整个生态中的效率。</p>
+	</div>
+</div>
+<div class="inbox">
+	<div class="fhqtp"><img src="images/b_01.png"/></div>
+	<div class="fhtext">
+		<p><b>DAO</b> / 分布式自治组织。</p>
+		<p><b>Fund</b> / 基金，在DAPI中，有DEC币基金和贡献点基金两种基金。</p>
+		<p><b>贡献点</b> / 每个项目设立之后，项目基金拥有1亿贡献点，用于奖励给项目贡献者。</p>
+		<p><b>投票权重</b> / 出资币数*ln(1+天数)+信用值加权。备注：天数上加一个自然对数平滑。</p>
+		<p><b>发起提案</b> / 每个提案的发起，需要消耗1DEC币（支付经DAPI基金会），通过则返还0.9DEC，驳回则返还0.5。</p>
+		<p><b>提案通过条件</b> / 投同意的总权重/总权重>0.６。</p>
+		<p><b>提案驳回条件</b> / 投反对的的总权重/总权重>=0.4。</p>
+		<p>如果同意权重>0.5 但是＜=0.6,则提案状态变更为：非绝对多数通过。</p>
+		<p>默认提案有效时间3天，到达50%延长3天，到55%延长3天。到最长时间依然未到绝对多数，提案取消，返回0.6DEC。</p>
+	</div>
+</div>
+<div id="footer">
+	<div class="footerbox">
+		<a href=""><img src="images/a_21.png"/></a>
+		<p>Copyright @2018 dechain.io | All rights reserved</p>
+	</div>
+</div>
+<script>
+	$(document).ready(function () {
+	  $(".wby10").bind("change",function(){
+		if($(this).val()=='简体'){
+		  self.location.href="2.html"
+		}
+		else if($(this).val()=='繁体'){
+		  self.location.href="f2.html"
+		}else {
+		  self.location.href="e2.html"
+		}
+	  });
+	});
+</script>
+</body>
+</html>
