@@ -160,5 +160,8 @@ a{color: #666666;}
 
 
 /*首页按钮*/
-.jianbtn img{margin-top: 300px;margin-left:1220px;}
+.jianbtn{
+	text-align: center;
+}
+.jianbtn img{margin-top: 400px;}
 .yingbtn img{margin-top: 320px;margin-left: 1120px;}
